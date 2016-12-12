@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSUV-Sandbox-Project.CSharp.Plugins", "WSUV-Sandbox-Project.CSharp.Plugins.csproj", "{9FCBF252-93C5-762C-192E-C4F586AF265D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSUV-Sandbox-Project.CSharp", "WSUV-Sandbox-Project.CSharp.csproj", "{10E9C79B-8095-C076-6D34-3B3C8CF8CE30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSUV-Sandbox-Project.CSharp.Editor", "WSUV-Sandbox-Project.CSharp.Editor.csproj", "{003797BF-BD3D-9B18-FB89-F74CD244D744}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FCBF252-93C5-762C-192E-C4F586AF265D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FCBF252-93C5-762C-192E-C4F586AF265D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FCBF252-93C5-762C-192E-C4F586AF265D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FCBF252-93C5-762C-192E-C4F586AF265D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10E9C79B-8095-C076-6D34-3B3C8CF8CE30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10E9C79B-8095-C076-6D34-3B3C8CF8CE30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10E9C79B-8095-C076-6D34-3B3C8CF8CE30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10E9C79B-8095-C076-6D34-3B3C8CF8CE30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{003797BF-BD3D-9B18-FB89-F74CD244D744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{003797BF-BD3D-9B18-FB89-F74CD244D744}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{003797BF-BD3D-9B18-FB89-F74CD244D744}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{003797BF-BD3D-9B18-FB89-F74CD244D744}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

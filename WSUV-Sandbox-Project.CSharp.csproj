@@ -78,6 +78,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\cameraRay.cs" />
     <Compile Include="Assets\simpleFollow.cs" />
     <Compile Include="Assets\startOff.cs" />
     <Compile Include="Assets\triggerObject.cs" />

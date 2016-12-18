@@ -1,25 +1,15 @@
 fileFormatVersion: 2
-guid: a2d0be12d60a0fd42899815f91bf8a95
-timeCreated: 1481929694
+guid: 44969e7953a1ca048926a135413a10c9
+timeCreated: 1482041039
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: pCylinder1
-    100002: polySurface1
-    100004: pPipe1
-    100006: transform1
-    100008: transform2
-    100010: //RootNode
-    400000: pCylinder1
-    400002: polySurface1
-    400004: pPipe1
-    400006: transform1
-    400008: transform2
-    400010: //RootNode
-    2300000: polySurface1
-    3300000: polySurface1
-    4300000: polySurface1
+    100000: //RootNode
+    400000: //RootNode
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: pTorus1
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -45,7 +35,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 10
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1

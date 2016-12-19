@@ -78,7 +78,12 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ActivateCam.cs" />
+    <Compile Include="Assets\ActivateObject.cs" />
+    <Compile Include="Assets\ObjectText.cs" />
     <Compile Include="Assets\cameraRay.cs" />
+    <Compile Include="Assets\changingFOV.cs" />
+    <Compile Include="Assets\shootBall.cs" />
     <Compile Include="Assets\simpleFollow.cs" />
     <Compile Include="Assets\startOff.cs" />
     <Compile Include="Assets\triggerObject.cs" />

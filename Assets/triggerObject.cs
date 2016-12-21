@@ -7,6 +7,7 @@ public class triggerObject : MonoBehaviour {
 
     void Start()
     {
+        target.active = false;
         rend = GetComponent<Renderer>();
         rend.material.EnableKeyword("_EmissionColor");
     }

@@ -85,7 +85,11 @@
     <Compile Include="Assets\changingFOV.cs" />
     <Compile Include="Assets\shootBall.cs" />
     <Compile Include="Assets\simpleFollow.cs" />
+    <Compile Include="Assets\spawnPrefab.cs" />
     <Compile Include="Assets\startOff.cs" />
+    <Compile Include="Assets\swapMaterial.cs" />
+    <Compile Include="Assets\toggleColliders.cs" />
+    <Compile Include="Assets\toggleGravity.cs" />
     <Compile Include="Assets\triggerObject.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -176,6 +180,10 @@
     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+    <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
+    <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+    <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
+    <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>

@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: eb96bb5857484054f818aad7c58e7f9f
+timeCreated: 1481563547
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 48
+  forceTextureCase: -1
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Verdana
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 1b19fcebf6797054fae6c9d7485b55cc, type: 3}
+  customCharacters: A
+  fontRenderingMode: 3
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

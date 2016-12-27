@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class swapMaterial : MonoBehaviour {
 
@@ -7,6 +8,8 @@ public class swapMaterial : MonoBehaviour {
     public PhysicMaterial rubber;
     public Collider[] objects;
     private bool iceActive;
+    public Text mainUIText;
+
     void OnCollisionEnter()
     {
         if (iceActive)
@@ -16,6 +19,7 @@ public class swapMaterial : MonoBehaviour {
                 objects[i].material = rubber;
                 iceActive = false;
             }
+            mainUIText.GetComponent<Text>().text = "Physics Material - Rubber";
         }
         else
         {
@@ -24,6 +28,7 @@ public class swapMaterial : MonoBehaviour {
                 objects[i].material = ice;
                 iceActive = true;
             }
+            mainUIText.GetComponent<Text>().text = "Physics Material - Ice";
         }
     }
 	

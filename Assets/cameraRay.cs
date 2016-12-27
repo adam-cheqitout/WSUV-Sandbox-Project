@@ -1,8 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class cameraRay : MonoBehaviour {
     public Camera camera;
+    public Text mainUIText;
+    public Transform currentTarget;
 
     void Update()
     {
@@ -11,16 +14,15 @@ public class cameraRay : MonoBehaviour {
 
         if (Physics.Raycast(ray, out hit))
         {
-            Transform objectHit = hit.transform;
+            currentTarget = hit.transform;
             try
             {
-                hit.transform.parent.gameObject.active = true;
+                mainUIText.GetComponent<Text>().text = currentTarget.GetComponent<ObjectText>().showMessage();
             }
             catch
             {
-                print("No parent");
+                //print("no object text");
             }
-            // Do something with the object that was hit by the raycast.
         }
     }
 }

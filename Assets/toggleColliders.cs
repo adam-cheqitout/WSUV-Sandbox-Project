@@ -14,12 +14,12 @@ public class toggleColliders : MonoBehaviour {
             if (objects[i].GetComponent<Collider>().enabled)
             {
                 objects[i].GetComponent<Collider>().enabled = false;
-                mainUIText.GetComponent<Text>().text = "COLLIDERS DISABLED";
+                mainUIText.GetComponent<Text>().text = "Object Colliders OFF";
             }
             else
             {
                 objects[i].GetComponent<Collider>().enabled = true;
-                mainUIText.GetComponent<Text>().text = "COLLIDERS ENABLED";
+                mainUIText.GetComponent<Text>().text = "Object Colliders ON";
             }
         }
     }

@@ -16,6 +16,7 @@ public class ActivateCam : MonoBehaviour
     {
         if (target.enabled)
         {
+            //adding a comment
             target.enabled = false;
             mainUIText.GetComponent<Text>().text = target.GetComponent<ObjectText>().showMessage();
         }
